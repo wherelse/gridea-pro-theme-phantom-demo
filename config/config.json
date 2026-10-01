@@ -1,0 +1,64 @@
+{
+  "themeName": "gridea-pro-theme-phantom",
+  "postPageSize": 8,
+  "archivesPageSize": 50,
+  "siteName": "Phantom Demo",
+  "siteAuthor": "",
+  "siteEmail": "",
+  "siteDescription": "Phantom 主题演示站 —— HTML5UP Phantom 风格的 Gridea Pro 主题",
+  "footerInfo": "Powered by Gridea Pro · Theme Phantom",
+  "domain": "",
+  "postUrlFormat": "SLUG",
+  "tagUrlFormat": "SLUG",
+  "dateFormat": "YYYY-MM-DD",
+  "language": "",
+  "feedEnabled": false,
+  "feedFullText": true,
+  "feedCount": 10,
+  "postPath": "post",
+  "tagPath": "tag",
+  "tagsPath": "",
+  "categoryPath": "",
+  "categoriesPath": "",
+  "linkPath": "links",
+  "memosPath": "",
+  "galleryPath": "",
+  "katexEnabled": true,
+  "customConfig": {
+    "beian": "",
+    "bilibili": "",
+    "codeHighlight": true,
+    "customCss": "",
+    "dribbble": "",
+    "facebook": "",
+    "galleryPageName": "相册",
+    "github": "https://github.com/wherelse/gridea-pro-theme-phantom",
+    "instagram": "",
+    "linksPageName": "我的朋友们",
+    "memosPageName": "日常",
+    "photos": [
+      {
+        "description": "你好，Phantom",
+        "image": "/images/theme/gallery-1.png"
+      },
+      {
+        "description": "主题功能一览",
+        "image": "/images/theme/gallery-2.png"
+      },
+      {
+        "description": "Markdown 排版示例",
+        "image": "/images/theme/gallery-3.png"
+      },
+      {
+        "description": "主题开发指南",
+        "image": "/images/theme/gallery-4.png"
+      }
+    ],
+    "px500": "",
+    "showPlaceholderCover": true,
+    "twikooVersion": "2.0.12",
+    "twitter": "",
+    "weibo": "",
+    "zhihu": ""
+  }
+}

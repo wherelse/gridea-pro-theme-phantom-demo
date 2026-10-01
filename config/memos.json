@@ -1,0 +1,35 @@
+{
+  "memos": [
+    {
+      "id": "E5VPSM",
+      "content": "把旧的 Phantom 主题搬到了 Gridea Pro 上，磁贴首页 + 侧滑菜单的味道一点没丢。\n\n#Phantom #Gridea Pro",
+      "tags": [
+        "Phantom",
+        "Gridea Pro"
+      ],
+      "images": [],
+      "createdAt": "2026-03-05T09:12:00+08:00",
+      "updatedAt": "2026-03-05T09:12:00+08:00"
+    },
+    {
+      "id": "qrZUlk",
+      "content": "好的主题不该抢内容的风头。Phantom 的排版留白很足，照片和文字都能被好好看见。",
+      "tags": [
+        "随笔"
+      ],
+      "images": [],
+      "createdAt": "2026-03-03T21:40:00+08:00",
+      "updatedAt": "2026-03-03T21:40:00+08:00"
+    },
+    {
+      "id": "75GCF5",
+      "content": "友链、相册、闪念在 Gridea Pro 里都成了原生功能，主题只需要把数据渲染得好看就行。",
+      "tags": [
+        "主题"
+      ],
+      "images": [],
+      "createdAt": "2026-03-01T15:05:00+08:00",
+      "updatedAt": "2026-03-01T15:05:00+08:00"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "menus": [
+    {
+      "id": "j1mYff",
+      "name": "首页",
+      "link": "/",
+      "openType": "Internal"
+    },
+    {
+      "id": "qFIYaf",
+      "name": "博客",
+      "link": "/post",
+      "openType": "Internal"
+    },
+    {
+      "id": "vd41Uz",
+      "name": "相册",
+      "link": "/post/gallery",
+      "openType": "Internal"
+    },
+    {
+      "id": "9lvhgM",
+      "name": "日常",
+      "link": "/memos",
+      "openType": "Internal"
+    },
+    {
+      "id": "Opi9yO",
+      "name": "归档",
+      "link": "/archives",
+      "openType": "Internal"
+    },
+    {
+      "id": "ZjyRkU",
+      "name": "标签",
+      "link": "/tags",
+      "openType": "Internal"
+    },
+    {
+      "id": "8u2Ton",
+      "name": "友链",
+      "link": "/links",
+      "openType": "Internal"
+    },
+    {
+      "id": "MJTrgo",
+      "name": "关于",
+      "link": "/post/about",
+      "openType": "Internal"
+    },
+    {
+      "id": "lBm2mi",
+      "name": "GitHub",
+      "link": "https://github.com/wherelse/gridea-pro-theme-phantom",
+      "openType": "External"
+    }
+  ]
+}

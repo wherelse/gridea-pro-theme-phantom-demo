@@ -1,0 +1,7 @@
+# 构建输出（每次渲染生成）
+output/
+.render-manifest.json
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db

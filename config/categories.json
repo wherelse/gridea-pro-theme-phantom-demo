@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "id": "DfCat0",
+      "name": "默认分类",
+      "slug": "default",
+      "description": "默认分类"
+    },
+    {
+      "id": "enrEUL",
+      "name": "主题开发",
+      "slug": "theme-dev",
+      "description": "Gridea Pro 主题开发相关"
+    },
+    {
+      "id": "Ot7uIO",
+      "name": "随笔",
+      "slug": "essay",
+      "description": "随想与记录"
+    }
+  ]
+}

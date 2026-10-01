@@ -1,0 +1,27 @@
+{
+  "version": "",
+  "posts": [
+    "about.md",
+    "gallery.md",
+    "gridea-pro-theme-guide.md",
+    "hello-phantom.md",
+    "markdown-showcase.md",
+    "no-cover-demo.md",
+    "phantom-features.md",
+    "theme-guide.md",
+    "why-we-write.md"
+  ],
+  "themes": [
+    "gridea-pro-theme-phantom",
+    "amore",
+    "amore-jinja2",
+    "claudo-theme",
+    "flavor-theme",
+    "fly",
+    "inotes",
+    "letters-theme",
+    "notes",
+    "simple"
+  ],
+  "memos": true
+}

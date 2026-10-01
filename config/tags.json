@@ -1,0 +1,46 @@
+{
+  "tags": [
+    {
+      "id": "xGrxRd",
+      "name": "Phantom",
+      "slug": "phantom",
+      "used": true,
+      "color": "#eab308"
+    },
+    {
+      "id": "BCXD1z",
+      "name": "Gridea Pro",
+      "slug": "gridea-pro",
+      "used": true,
+      "color": "#22c55e"
+    },
+    {
+      "id": "azGnmO",
+      "name": "主题",
+      "slug": "theme",
+      "used": true,
+      "color": "#3b82f6"
+    },
+    {
+      "id": "R2EOxf",
+      "name": "教程",
+      "slug": "tutorial",
+      "used": true,
+      "color": "#a855f7"
+    },
+    {
+      "id": "yrrC0D",
+      "name": "示例",
+      "slug": "demo",
+      "used": true,
+      "color": "#ef4444"
+    },
+    {
+      "id": "a7lrXg",
+      "name": "随笔",
+      "slug": "essay",
+      "used": true,
+      "color": "#14b8a6"
+    }
+  ]
+}
