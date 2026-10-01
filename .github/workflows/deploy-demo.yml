@@ -1,0 +1,67 @@
+name: Build & Deploy Demo
+
+# 用 Gridea Pro 的真实渲染引擎把本仓库渲染成静态站点，再部署到 GitHub Pages。
+# 访问地址：https://<user>.github.io/<repo>/
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout demo
+        uses: actions/checkout@v4
+
+      - name: Clone Gridea Pro (renderer source)
+        run: git clone --depth 1 https://github.com/Gridea-Pro/gridea-pro.git gridea-pro-src
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+          cache-dependency-path: gridea-pro-src/go.sum
+
+      - name: Inject CI render command
+        run: |
+          mkdir -p gridea-pro-src/backend/cmd/ci_render
+          cp .github/ci/render/main.go gridea-pro-src/backend/cmd/ci_render/main.go
+
+      - name: Render demo site
+        working-directory: gridea-pro-src
+        run: go run ./backend/cmd/ci_render "$GITHUB_WORKSPACE"
+
+      - name: Prefix root-relative URLs for project Pages
+        run: python3 .github/ci/prefix_paths.py "$GITHUB_WORKSPACE/output" "/${{ github.event.repository.name }}"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

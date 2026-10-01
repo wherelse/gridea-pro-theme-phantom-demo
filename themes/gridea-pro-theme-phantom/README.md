@@ -32,13 +32,17 @@
 设置面板分组：**社交**、**主题功能**、**相册**、**友链**、**日常/memos**、**评论**。
 每一项的详细用途见下方使用指南。
 
+## 在线演示
+
+- **Demo 站点**：<https://wherelse.github.io/gridea-pro-theme-phantom-demo/>
+- **Demo 源码**：<https://github.com/wherelse/gridea-pro-theme-phantom-demo>
+
 ## 使用指南
 
 完整的安装、设置详解、页面来源、特殊页面机制、自定义方法与常见问题：
 
-- 在线（演示站）：<https://github.com/wherelse/gridea-pro-theme-phantom-demo>
-  —— 指南在其中渲染为 `/post/theme-guide/`
-- 源文件：`posts/theme-guide.md`
+- 在线：<https://wherelse.github.io/gridea-pro-theme-phantom-demo/post/theme-guide/>
+- 源文件：演示站仓库的 `posts/theme-guide.md`
 
 ## 目录结构
 
